@@ -47,6 +47,13 @@ The Netflix Movies and TV Shows Clustering project aims to improve the user expe
 - The correlation heatmap shows a moderate positive correlation between the duration of a movie and its release year.
 - A content-based recommender system was built using cosine similarity to make personalized recommendations to users based on the type of show they watched.
 
+| Model                    | Number of clusters | Silhouette Score | Calinski-Harabasz Score | Davies-Bouldin Score |
+|--------------------------|--------------------|------------------|-------------------------|-----------------------|
+| K-Means Clustering       | 7                  | 0.00500          | 22.0021                 | 10.7600               |
+| Hierarchical Clustering  | 5                  | 0.00048          | 18.1425                 | 12.1666               |
+| DBSCAN Clustering        | 17                 | -0.01480         | 2.8595                  | 1.4252                |
+
+
 ## Tools and Skills
 
 - **Python**: Used for data analysis, preprocessing, and model building.
